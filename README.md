@@ -6,16 +6,6 @@ A full-stack, enterprise-grade restaurant platform inspired by **Domino's Pizza*
 
 ## Architecture & Project Structure
 
-<<<<<<< HEAD
-The project is structured into 4 distinct folders:
-
-| Folder | Name & Role | Tech Stack | Port |
-| :--- | :--- | :--- | :--- |
-| **`front/`** | **Client Customer Website** (Domino's & Mac-style online ordering, customizer, cart, checkout & live 5-stage tracker) | React, Vite, Tailwind CSS, Lucide | `5173` |
-| **`admin/`** | **Admin Management Portal** (Revenue analytics, live kitchen orders control, menu catalog CRUD, categories, restaurant settings) | React, Vite, Tailwind CSS, Lucide | `5174` |
-| **`store/`** | **Staff Counter POS & Kitchen KDS** (Cashier order taking, Dine-in/Table picker, Takeaway, fast tender cash calculator, printable thermal receipt & real-time Kitchen Display System) | React, Vite, Tailwind CSS, Lucide | `5175` |
-| **`back/`** | **Express REST API & Persistence** (Categories, Menu items, Orders, Coupons, Analytics, and auto-seeded realistic database) | Node.js, Express, CORS, JSON/SQLite DB | `5000` |
-=======
 The project is organized by section so each part of the restaurant system has a clear purpose and responsibilities.
 
 ### Section-wise workspace layout
@@ -76,7 +66,6 @@ restaurant/
 | **`admin/`** | **Admin Management Portal** (Revenue analytics, live kitchen orders control, menu catalog CRUD, categories, restaurant settings)                                                      | React, Vite, Tailwind CSS, Lucide      | `5174` |
 | **`store/`** | **Staff Counter POS & Kitchen KDS** (Cashier order taking, Dine-in/Table picker, Takeaway, fast tender cash calculator, printable thermal receipt & real-time Kitchen Display System) | React, Vite, Tailwind CSS, Lucide      | `5175` |
 | **`back/`**  | **Express REST API & Persistence** (Categories, Menu items, Orders, Coupons, Analytics, and auto-seeded realistic database)                                                           | Node.js, Express, CORS, JSON/SQLite DB | `5000` |
->>>>>>> 8d5c667 (Adding llocal reaadme)
 
 ---
 
