@@ -6,6 +6,7 @@ A full-stack, enterprise-grade restaurant platform inspired by **Domino's Pizza*
 
 ## Architecture & Project Structure
 
+<<<<<<< HEAD
 The project is structured into 4 distinct folders:
 
 | Folder | Name & Role | Tech Stack | Port |
@@ -14,6 +15,68 @@ The project is structured into 4 distinct folders:
 | **`admin/`** | **Admin Management Portal** (Revenue analytics, live kitchen orders control, menu catalog CRUD, categories, restaurant settings) | React, Vite, Tailwind CSS, Lucide | `5174` |
 | **`store/`** | **Staff Counter POS & Kitchen KDS** (Cashier order taking, Dine-in/Table picker, Takeaway, fast tender cash calculator, printable thermal receipt & real-time Kitchen Display System) | React, Vite, Tailwind CSS, Lucide | `5175` |
 | **`back/`** | **Express REST API & Persistence** (Categories, Menu items, Orders, Coupons, Analytics, and auto-seeded realistic database) | Node.js, Express, CORS, JSON/SQLite DB | `5000` |
+=======
+The project is organized by section so each part of the restaurant system has a clear purpose and responsibilities.
+
+### Section-wise workspace layout
+
+```text
+restaurant/
+├── README.md                    # Main project guide
+├── package.json                 # Root scripts for all apps
+├── docs/
+│   └── project-structure.md     # Section-based project documentation
+├── front/                       # Customer website
+│   ├── src/
+│   │   ├── header/              # Announcement ticker & main navigation header
+│   │   ├── nav/                 # Category horizontal navigation & veg filter
+│   │   ├── main/                # Hero banner & menu items grid
+│   │   ├── footer/              # Restaurant location, hours & portal links
+│   │   ├── customizer/          # Domino's/Mac style item customization modal
+│   │   ├── cart/                # Slide-out basket & discount coupon drawer
+│   │   ├── checkout/            # Checkout form & payment options modal
+│   │   └── tracker/             # Live 5-stage order tracker modal
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── dist/
+├── admin/                       # Admin dashboard & operations
+│   ├── src/
+│   │   ├── header/              # Top brand bar & port status
+│   │   ├── nav/                 # Sidebar navigation & kitchen load stats
+│   │   ├── main/                # Dashboard, Orders, Menu, Categories & Settings
+│   │   └── modals/              # Item & Category create/edit modals
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── dist/
+├── store/                       # POS and staff workflow tools
+│   ├── src/
+│   │   ├── header/              # POS top bar, mode selector & live clock
+│   │   ├── nav/                 # Dine-in table selector & guest info toolbar
+│   │   ├── main/                # Counter POS, Kitchen KDS & Receipts archive
+│   │   └── modals/              # Thermal receipt & POS customizer modals
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── dist/
+├── back/                        # API and database layer
+│   ├── src/
+│   ├── data/
+│   ├── .env
+│   └── package.json
+├── Chahar Restaurant Gold Badge Logo.png
+├── Chahar Restaurant Golden Emblem.png
+└── Chahar Restaurant_ Good Food, Good Mood.png
+```
+
+| Folder       | Name & Role                                                                                                                                                                           | Tech Stack                             | Port   |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------- | :----- |
+| **`front/`** | **Client Customer Website** (Domino's & Mac-style online ordering, customizer, cart, checkout & live 5-stage tracker)                                                                 | React, Vite, Tailwind CSS, Lucide      | `5173` |
+| **`admin/`** | **Admin Management Portal** (Revenue analytics, live kitchen orders control, menu catalog CRUD, categories, restaurant settings)                                                      | React, Vite, Tailwind CSS, Lucide      | `5174` |
+| **`store/`** | **Staff Counter POS & Kitchen KDS** (Cashier order taking, Dine-in/Table picker, Takeaway, fast tender cash calculator, printable thermal receipt & real-time Kitchen Display System) | React, Vite, Tailwind CSS, Lucide      | `5175` |
+| **`back/`**  | **Express REST API & Persistence** (Categories, Menu items, Orders, Coupons, Analytics, and auto-seeded realistic database)                                                           | Node.js, Express, CORS, JSON/SQLite DB | `5000` |
+>>>>>>> 8d5c667 (Adding llocal reaadme)
 
 ---
 
